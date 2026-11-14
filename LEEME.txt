@@ -1,15 +1,26 @@
-ACTUALIZACION SEO - NAIM GUTIERREZ
+ACTUALIZACION SEO - PAGINA DE ENTRENADOR PERSONAL EN MADRID
 
-Contenido del paquete:
-- index.html (actualiza la portada existente; conserva la estructura y diseño originales)
-- sitemap.xml (incluye portada y pagina de entrenador personal online)
-- entrenador-personal-online/index.html (nueva pagina comercial)
+Este paquete parte de la version de la web con la pagina de Entrenador Personal Online ya incorporada.
 
-Como subirlo a GitHub:
-1. Descomprime este ZIP en tu ordenador.
+ARCHIVOS INCLUIDOS
+- index.html: conserva la portada e incorpora un enlace a la pagina presencial de Madrid.
+- sitemap.xml: incluye portada, pagina online y pagina Madrid.
+- entrenador-personal-online/index.html: mantiene la pagina online y añade enlace a la pagina Madrid.
+- entrenador-personal-madrid/index.html: nueva pagina comercial especifica para ECAMO Hybrid en Madrid.
+
+SUBIDA A GITHUB
+1. Descomprime el ZIP.
 2. En el repositorio ECAMO, rama main, pulsa Add file > Upload files.
-3. Arrastra index.html y sitemap.xml a la raiz del repositorio.
-4. Arrastra tambien la carpeta entrenador-personal-online completa, conservando su estructura.
-5. Confirma el commit. GitHub puede pedir confirmacion para reemplazar index.html; acepta esa sustitucion.
+3. Sube index.html y sitemap.xml a la raiz y acepta reemplazar los archivos existentes.
+4. Sube las carpetas entrenador-personal-online y entrenador-personal-madrid conservando su estructura. En la carpeta online, reemplaza el index.html existente.
+5. Confirma el commit.
+6. No subas este ZIP ni este LEEME.txt. No reemplaces robots.txt, la foto ni el PDF.
 
-No reemplaces robots.txt, la fotografia ni el PDF. No subas el ZIP a GitHub.
+DESPUES DEL DESPLIEGUE
+- Comprueba https://naimgutierrez.com/
+- Comprueba https://naimgutierrez.com/entrenador-personal-online/
+- Comprueba https://naimgutierrez.com/entrenador-personal-madrid/
+- Comprueba https://naimgutierrez.com/sitemap.xml
+- Solo despues de comprobarlo, inspecciona la nueva URL Madrid en Search Console y solicita indexacion si la prueba publicada es correcta.
+
+La pagina mantiene el mensaje de preapertura informativa: no se activan contrataciones, reservas ni pagos.
