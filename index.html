@@ -253,9 +253,27 @@ section:has(.quote){background:var(--lime);color:#11130d;padding:90px 0}section:
 @media(max-width:760px){.hero-inner{display:grid}.hero-process-card{padding:22px}.hero-process-heading{margin:20px 0 17px}.hero-process-steps{gap:8px}}
 </style>
 
+
+<style id="resources-home-styles">
+.resource-feature-section{padding:88px 0;background:linear-gradient(180deg,rgba(216,255,67,.035),transparent 85%)}
+.resource-feature-lead{max-width:770px;color:var(--muted);font-size:17px;line-height:1.75}
+.resource-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:32px}
+.resource-feature-card{display:flex;flex-direction:column;min-height:260px;padding:25px;border:1px solid var(--line);border-radius:17px;background:linear-gradient(145deg,#171a15,#10120f);transition:transform .2s,border-color .2s}
+.resource-feature-card:hover{transform:translateY(-3px);border-color:rgba(216,255,67,.45)}
+.resource-feature-card>span{font-size:10px;letter-spacing:.13em;font-weight:900;color:var(--lime)}
+.resource-feature-card h3{font-size:21px;line-height:1.2;margin:18px 0 10px;letter-spacing:-.025em}
+.resource-feature-card p{color:var(--muted);font-size:14px;line-height:1.7;margin:0 0 24px}
+.resource-feature-card b{margin-top:auto;color:var(--lime);font-size:12px;letter-spacing:.05em;text-transform:uppercase}
+.resource-feature-card b i{font-style:normal;padding-left:5px}
+.resource-feature-card-accent{background:linear-gradient(145deg,rgba(216,255,67,.09),#11130f 75%);border-color:rgba(216,255,67,.23)}
+.resource-feature-more{margin-top:24px}.resource-feature-more a{color:var(--lime);font-weight:800;text-decoration:underline;text-underline-offset:5px}
+@media(max-width:900px){.resource-feature-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.resource-feature-section{padding:62px 0}.resource-feature-grid{grid-template-columns:1fr}.resource-feature-card{min-height:0}.links{gap:14px;flex-wrap:wrap;justify-content:center}}
+</style>
+
 </head>
 <body>
-<nav><div class="wrap nav"><div class="brand">NAIM <span>GUTIÉRREZ</span></div><div class="links"><a href="/entrenador-personal-online/">Entrenamiento online</a><a href="/entrenador-personal-madrid/">Entrenamiento en Madrid</a><a href="#metodo">Método ECAMO</a><a href="#performance">Programas</a><a href="#para">Para quién</a><a href="#como-funciona">Cómo funciona</a><a href="#preguntas">Preguntas</a><a href="#contacto">Contacto</a></div><a class="btn nav-start" href="https://wa.me/34620872614?text=Hola%2C%20Naim.%20Estoy%20interesado/a%20en%20conocer%20m%C3%A1s%20sobre%20el%20M%C3%A9todo%20ECAMO%20y%20sus%20modalidades." target="_blank" rel="noopener noreferrer"><span class="nav-start-arrow" aria-hidden="true">→</span><span>Quiero empezar</span></a></div></nav>
+<nav><div class="wrap nav"><div class="brand">NAIM <span>GUTIÉRREZ</span></div><div class="links"><a href="/entrenador-personal-online/">Entrenamiento online</a><a href="/entrenador-personal-madrid/">Entrenamiento en Madrid</a><a href="#metodo">Método ECAMO</a><a href="#performance">Programas</a><a href="/recursos/">Recursos</a><a href="#para">Para quién</a><a href="#como-funciona">Cómo funciona</a><a href="#preguntas">Preguntas</a><a href="#contacto">Contacto</a></div><a class="btn nav-start" href="https://wa.me/34620872614?text=Hola%2C%20Naim.%20Estoy%20interesado/a%20en%20conocer%20m%C3%A1s%20sobre%20el%20M%C3%A9todo%20ECAMO%20y%20sus%20modalidades." target="_blank" rel="noopener noreferrer"><span class="nav-start-arrow" aria-hidden="true">→</span><span>Quiero empezar</span></a></div></nav>
 <header class="hero"><div class="wrap hero-inner">
 <div>
 <div class="eyebrow">Entrenador personal · Personal Training · Madrid y online</div>
@@ -447,6 +465,21 @@ section:has(.quote){background:var(--lime);color:#11130d;padding:90px 0}section:
 <details><summary>¿Tengo derecho a desistir si contrato online?</summary><p>Antes de abrir la contratación recibirás por escrito la información aplicable sobre el derecho de desistimiento, sus plazos, excepciones y procedimiento. La política de aviso de 24 horas para cambiar o cancelar una sesión es independiente de los derechos legales que puedan corresponderte.</p></details>
 <details><summary>¿Qué ocurre antes de empezar y qué compromiso adquiero?</summary><p>La web está en fase de preapertura informativa. Puedes consultar las modalidades, pero todavía no se formalizan contrataciones, reservas ni pagos. Cuando se abra la contratación recibirás una propuesta escrita con precio final, duración, servicios incluidos, forma de pago, seguimiento y condiciones. Podrás revisarla y resolver tus dudas antes de decidir.</p></details>
 </div></section>
+
+<section class="resource-feature-section" id="recursos">
+ <div class="wrap">
+  <div class="eyebrow">Recursos para tu día a día</div>
+  <h2>Ideas prácticas para entrenar y cuidarte con una agenda exigente.</h2>
+  <p class="resource-feature-lead">Guías sobre entrenamiento, sedentarismo y alimentación pensadas para profesionales que quieren mejorar su condición física sin depender de una semana perfecta.</p>
+  <div class="resource-feature-grid">
+   <a class="resource-feature-card" href="/recursos/entrenar-con-poco-tiempo/"><span>ENTRENAMIENTO · GUÍA PRÁCTICA</span><h3>Cómo organizar tres entrenamientos cuando tienes poco tiempo</h3><p>Una propuesta sencilla para distribuir sesiones de fuerza durante la semana.</p><b>Leer artículo <i aria-hidden="true">→</i></b></a>
+   <a class="resource-feature-card" href="/recursos/reducir-sedentarismo-trabajo/"><span>TRABAJO · MOVIMIENTO</span><h3>Trabajo sentado ocho horas: cómo reducir el sedentarismo</h3><p>Ideas para introducir más movimiento durante la jornada laboral.</p><b>Leer artículo <i aria-hidden="true">→</i></b></a>
+   <a class="resource-feature-card resource-feature-card-accent" href="/recursos/entrenar-cuando-viajas-por-trabajo/"><span>VIAJES · ENTRENAMIENTO ONLINE</span><h3>Cómo entrenar cuando viajas de hotel en hotel</h3><p>Alternativas para seguir entrenando aunque cambien tu ciudad, horario y gimnasio.</p><b>Leer artículo <i aria-hidden="true">→</i></b></a>
+  </div>
+  <p class="resource-feature-more"><a href="/recursos/">Ver todos los recursos <span aria-hidden="true">→</span></a></p>
+ </div>
+</section>
+
 <section class="cta" id="contacto">
 <div class="wrap">
 <div class="eyebrow">Próxima apertura · lista de interés</div>
