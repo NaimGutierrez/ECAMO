@@ -1,12 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://naimgutierrez.com/</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://naimgutierrez.com/entrenador-personal-online/</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://naimgutierrez.com/entrenador-personal-madrid/</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://naimgutierrez.com/recursos/</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://naimgutierrez.com/recursos/entrenar-con-poco-tiempo/</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://naimgutierrez.com/recursos/reducir-sedentarismo-trabajo/</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://naimgutierrez.com/recursos/comida-saludable-trabajo/</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://naimgutierrez.com/recursos/evitar-ganar-peso-trabajo-sentado/</loc><lastmod>2026-11-15</lastmod></url>
-  <url><loc>https://naimgutierrez.com/recursos/entrenar-cuando-viajas-por-trabajo/</loc><lastmod>2026-11-15</lastmod></url>
+
+  <url>
+    <loc>https://naimgutierrez.com/</loc>
+  </url>
+
+  <url>
+    <loc>https://naimgutierrez.com/entrenador-personal-online/</loc>
+  </url>
+
+  <url>
+    <loc>https://naimgutierrez.com/entrenador-personal-madrid/</loc>
+  </url>
+
+  <url>
+    <loc>https://naimgutierrez.com/recursos/</loc>
+  </url>
+
+  <url>
+    <loc>https://naimgutierrez.com/recursos/entrenar-con-poco-tiempo/</loc>
+  </url>
+
+  <url>
+    <loc>https://naimgutierrez.com/recursos/reducir-sedentarismo-trabajo/</loc>
+  </url>
+
+  <url>
+    <loc>https://naimgutierrez.com/recursos/comida-saludable-trabajo/</loc>
+  </url>
+
+  <url>
+    <loc>https://naimgutierrez.com/recursos/evitar-ganar-peso-trabajo-sentado/</loc>
+  </url>
+
+  <url>
+    <loc>https://naimgutierrez.com/recursos/entrenar-cuando-viajas-por-trabajo/</loc>
+  </url>
+
 </urlset>
